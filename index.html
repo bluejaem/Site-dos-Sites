@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Central de Atalhos</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <meta name="description" content="Menu minimalista para acessar sites rápido">
+</head>
+<body>
+    <main class="center">
+        <div class="card">
+            <h1 class="title">Central de Atalhos</h1>
+
+            <label for="seletorSite" class="sr-only">Escolha o site</label>
+            <div class="controls">
+                <select id="seletorSite" aria-label="Escolha um site">
+                    <option value="">— Escolha um site —</option>
+                    <option value="https://www.youtube.com/">YouTube</option>
+                    <option value="https://www.instagram.com/">Instagram</option>
+                    <option value="https://www.facebook.com/">Facebook</option>
+                    <option value="https://www.twitter.com/">Twitter</option>
+                    <option value="https://www.github.com/">GitHub</option>
+                    <option value="https://www.mojang.com/">Mojang</option>
+                </select>
+                <button id="btnAcessar" class="btn">Acessar</button>
+            </div>
+
+            <div id="resultado" role="status" aria-live="polite"></div>
+        </div>
+    </main>
+
+</body>
+</html>
