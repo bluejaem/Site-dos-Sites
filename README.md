@@ -10,8 +10,6 @@ O projeto está hospedado e funcional através do GitHub Pages. Clique abaixo pa
 
 ### [👉 Acessar Central de Atalhos](https://bluejaem.github.io/Site-dos-Sites/)
 
-*(Substitua "NOME-DO-SEU-REPO" pelo nome real do seu repositório no link acima)*
-
 ---
 
 ## 🛠️ Sobre o Projeto
