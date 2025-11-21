@@ -6,7 +6,7 @@
 	--accent: #7fb6ff; /* azul pastel */
 	--muted: rgba(255,255,255,0.85);
 	--text: #ffffff;
-	--select-text: #062b3a; /* cor do texto dentro do select/option para garantir legibilidade */
+	--select-text: rgba(255,255,255,0.95); /* texto do select (valor selecionado) mais claro sobre o overlay */
 	--radius: 14px;
 	--max-width: 580px;
 }
@@ -80,7 +80,8 @@ select{
 
 /* Força cor e fundo das opções do dropdown para navegadores que respeitam estilos */
 select option{
-	color:var(--select-text);
+	/* opções do dropdown: texto escuro sobre fundo branco para boa leitura */
+	color: #062b3a;
 	background: #ffffff;
 }
 
