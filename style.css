@@ -8,7 +8,7 @@
 	--text: #ffffff;
 	--select-text: rgba(255,255,255,0.95); /* texto do select (valor selecionado) mais claro sobre o overlay */
 	--radius: 14px;
-	--max-width: 580px;
+	--max-width: 580px
 }
 
 *{box-sizing:border-box}
